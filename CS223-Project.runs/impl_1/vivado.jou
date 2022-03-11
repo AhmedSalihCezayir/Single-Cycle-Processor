@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Fri Dec 25 03:30:35 2020
+# Process ID: 11388
+# Current directory: C:/Users/asali/vivado/CS223-Project/CS223-Project.runs/impl_1
+# Command line: vivado.exe -log top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source top.tcl -notrace
+# Log file: C:/Users/asali/vivado/CS223-Project/CS223-Project.runs/impl_1/top.vdi
+# Journal file: C:/Users/asali/vivado/CS223-Project/CS223-Project.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source top.tcl -notrace

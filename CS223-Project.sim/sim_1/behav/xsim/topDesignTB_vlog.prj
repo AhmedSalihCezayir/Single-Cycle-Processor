@@ -1,0 +1,23 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../CS223-Project.srcs/sources_1/new/AND2.sv" \
+"../../../../CS223-Project.srcs/sources_1/new/alu.sv" \
+"../../../../CS223-Project.srcs/sources_1/new/aludec.sv" \
+"../../../../CS223-Project.srcs/sources_1/new/controller.sv" \
+"../../../../CS223-Project.srcs/sources_1/new/datamem.sv" \
+"../../../../CS223-Project.srcs/sources_1/new/datapath.sv" \
+"../../../../CS223-Project.srcs/sources_1/new/debounce.sv" \
+"../../../../CS223-Project.srcs/sources_1/new/instmem.sv" \
+"../../../../CS223-Project.srcs/sources_1/new/maindec.sv" \
+"../../../../CS223-Project.srcs/sources_1/new/mips.sv" \
+"../../../../CS223-Project.srcs/sources_1/new/mux2.sv" \
+"../../../../CS223-Project.srcs/sources_1/new/regfile.sv" \
+"../../../../CS223-Project.srcs/sources_1/new/sevseg_4digit.sv" \
+"../../../../CS223-Project.srcs/sources_1/new/top.sv" \
+"../../../../CS223-Project.srcs/sim_1/new/topDesignTB.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
